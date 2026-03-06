@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasik ve Dijital Saat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="scene" id="scene">
+        <div class="clock-container" id="clockContainer">
+            
+            <div class="clock-face analog">
+                <div class="ticks-container" id="ticksContainer"></div>
+                <div class="numbers-container" id="numbersContainer"></div>
+                
+                <div class="hand hour-hand" id="hourHand"></div>
+                <div class="hand minute-hand" id="minuteHand"></div>
+                <div class="hand second-hand" id="secondHand"></div>
+                <div class="center-dot"></div>
+            </div>
+
+            <div class="clock-face digital">
+                <div class="digital-time" id="digitalTime">00:00:00</div>
+                <div class="digital-date" id="digitalDate">1 OCAK 2026</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
